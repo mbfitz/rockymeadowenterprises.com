@@ -99,7 +99,8 @@
 
             $overlay.toggle();
 
-            $(toggleSelector).find('i').toggleClass('fa-bars fa-close');
+            // $(toggleSelector).find('i').toggleClass('fa-bars fa-close');
+            $(toggleSelector).toggleClass('open');
 
             $(plugin[0].parentNode)
                 .find(subMenuClass)
