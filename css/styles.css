@@ -343,7 +343,7 @@ header.primary .menu-toggle {
   height: 3rem;
   position: absolute;
   right: 6.75rem;
-  top: 2rem;
+  top: 45%;
   width: 3rem;
   z-index: 2000;
 }
@@ -398,9 +398,9 @@ header.primary .menu-toggle.open .menu-bar-bottom {
 }
 
 .branding a,
-.branding im {
+.branding img {
   display: block;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 nav::before, nav::after {
@@ -717,28 +717,6 @@ form.search input {
   clear: both;
 }
 
-.hero {
-  background: #0d1640 url(../img/nyc-skyline.png) no-repeat center top/cover;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  height: 780px;
-  -webkit-justify-content: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.hero .copy {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  position: relative;
-  color: #FFF;
-}
-
 main section:not(:last-child) {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 3rem;
@@ -766,7 +744,7 @@ nav.supplemental ul li a:hover {
 }
 
 nav.supplemental ul ul a {
-  color: #727272;
+  color: #808080;
   font-size: 0.8rem;
   line-height: 2;
   padding: 0;
@@ -783,7 +761,7 @@ nav.supplemental > ul > li ~ li {
 
 footer.primary {
   background-color: #191919;
-  color: #727272;
+  color: #808080;
   font-size: 0.9rem;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -832,11 +810,13 @@ h4,
 h5 {
   font-family: "Sanchez", serif;
   line-height: 1.2;
-  margin-bottom: 0.6em;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -865,14 +845,14 @@ em {
 
 blockquote {
   border-left: 1px solid #e5e5e5;
-  color: #727272;
+  color: #808080;
   font-style: italic;
   margin-bottom: 1.5em;
   padding-left: 1rem;
 }
 
 .intro {
-  color: #727272;
+  color: #808080;
 }
 
 .intro p {
@@ -881,17 +861,17 @@ blockquote {
 }
 
 .guide {
-  color: #727272;
+  color: #808080;
   font-size: 1.25rem;
 }
 
 .meta {
-  color: #727272;
+  color: #808080;
 }
 
 hr {
   border: 0;
-  border-top: 1px solid #727272;
+  border-top: 1px solid #808080;
   display: block;
   height: 0;
   margin: 2em auto 3em;
@@ -1000,7 +980,7 @@ label {
 }
 
 fieldset .help {
-  color: #727272;
+  color: #808080;
   display: block;
   font-size: 0.8rem;
   margin: 0;
@@ -1421,7 +1401,7 @@ table tr:nth-child(even) td {
     margin-right: 2rem;
   }
   .dossier > * .bio .title {
-    color: #727272;
+    color: #808080;
     text-transform: uppercase;
   }
 }
@@ -1949,7 +1929,7 @@ header.primary {
 }
 
 .testimonial blockquote::before, .testimonial blockquote::after {
-  color: #727272;
+  color: #808080;
   font-family: Georgia, serif;
   font-size: 3.375rem;
   position: absolute;
@@ -1970,7 +1950,7 @@ header.primary {
 }
 
 .testimonial blockquote ~ p {
-  color: #727272;
+  color: #808080;
   font-size: 0.875rem;
   margin-bottom: 0;
   padding: 0 2.5rem;
@@ -2042,8 +2022,8 @@ header.primary {
 
 @media only screen and (min-width: 1024px) {
   .tiles > * {
-    -webkit-flex-basis: calc((100% / 4) - (2rem));
-            flex-basis: calc((100% / 4) - (2rem));
+    -webkit-flex-basis: calc((100% / 3) - (2rem));
+            flex-basis: calc((100% / 3) - (2rem));
   }
 }
 
@@ -2105,6 +2085,91 @@ header.primary {
   display: none;
 }
 
+/* site components */
+.hero {
+  background: #0d1640 url(../img/nyc-skyline.png) no-repeat center top/cover;
+  color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 780px;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 4.625rem;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  margin-bottom: 5rem;
+}
+
+.hero p.meta {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 1.325rem;
+  margin: 0 auto 5rem;
+  max-width: 80%;
+}
+
+.cta {
+  background: #0d1640;
+  border: 2px solid #fff;
+  padding: 0;
+  position: relative;
+}
+
+.cta a {
+  transition: all 250ms ease-in-out;
+  -webkit-align-items: center;
+          align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 1.5rem;
+  height: 100%;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 6rem 4rem;
+  posiiton: absolute;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.cta a:after {
+  font: normal normal normal 1em / 1 FontAwesome;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+  display: inline-block;
+  transition: all 250ms ease-in-out;
+  bottom: 1rem;
+  content: "\f105";
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  left: 4.5rem;
+}
+
+.cta a:hover:after {
+  left: 80%;
+}
+
+.cta a:hover {
+  background: #2f3656;
+  color: #fff;
+}
+
 /* = Media Queries = */
 @media only screen and (min-width: 669px) {
   /* = Layout = */
@@ -2136,19 +2201,24 @@ header.primary {
   }
   /* = Typography = */
   h1 {
-    font-size: 2.6rem;
+    font-size: 3.75rem;
+    margin-bottom: 3rem;
   }
   h2 {
-    font-size: 2.1rem;
+    font-size: 2.875rem;
+    margin-bottom: 3rem;
   }
   h3 {
-    font-size: 1.6rem;
+    font-size: 1.75rem;
+    margin-bottom: 2.25rem;
   }
   h4 {
     font-size: 1.25rem;
+    margin-bottom: 2.25rem;
   }
   h5 {
     font-size: 1.15rem;
+    margin-bottom: 2.25rem;
   }
 }
 

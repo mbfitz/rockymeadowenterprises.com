@@ -886,7 +886,7 @@ $large: 1024px;
  *
  **/
 
-@mixin tiles($gutter: 2rem, $columns: 4) {
+@mixin tiles($gutter: 2rem, $columns: 3) {
     > * {
         background-color: #EEE;
         margin-bottom: $gutter;
