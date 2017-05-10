@@ -888,7 +888,6 @@ $large: 1024px;
 
 @mixin tiles($gutter: 2rem, $columns: 3) {
     > * {
-        background-color: #EEE;
         margin-bottom: $gutter;
         padding: 2rem;
         text-align: left;
@@ -896,6 +895,7 @@ $large: 1024px;
             margin-bottom: 0;
         }
     }
+
     @media only screen and (min-width: $medium) {
         display: flex;
         flex-flow: row wrap;
