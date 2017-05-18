@@ -36,7 +36,7 @@
         </section>
         <section class="cta">
             <div class="container">
-                <h4>Does my child need speech therapy?</h4>
+                <h3>Does my child need speech therapy?</h3>
                 <p>
                     Research shows that speech therapy interventions can play a significant role in improving the life of children with autism and developmental delays. Early intervention can increase conversational competence, pragmatic functioning, social communication, and classroom learning skills (Adams et al., 2012).1
                 </p>

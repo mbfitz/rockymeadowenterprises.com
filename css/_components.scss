@@ -595,13 +595,13 @@ $large: 1024px;
         border-right: 1px solid $border;
     }
     li.active a {
-        background-color: $brand-dark-blue;
+        background-color: $brand-navy;
         color: #fff;
         cursor: default;
         pointer-events: none;
         &::before,
         &::after {
-            background-color: $brand-dark-blue;
+            background-color: $brand-navy;
         }
         &:hover {
             color: #fff;
@@ -673,7 +673,7 @@ $large: 1024px;
                 display: inline;
             }
             span {
-                background-color: $brand-dark-blue;
+                background-color: $brand-navy;
                 border-radius: 0.5rem;
                 color: #fff;
                 display: inline-block;
@@ -681,7 +681,7 @@ $large: 1024px;
                 padding: 0.5rem 1rem;
             }
             input[type="checkbox"]:checked + span {
-                background-color: $brand-dark-blue;
+                background-color: $brand-navy;
             }
             input[type="checkbox"] {
                 display: none;
@@ -800,7 +800,6 @@ $large: 1024px;
 */
 
 @mixin testimonial($gutterWidth: 4rem) {
-    background-color: $charcoal;
     margin-bottom: 4rem;
     padding: 4rem 0 4rem;
     text-align: center;
@@ -813,13 +812,13 @@ $large: 1024px;
     blockquote {
         border: none;
         color: #fff;
-        font-size: 1.125rem;
+        font-size: 1rem;
         margin-bottom: 1rem;
         padding: 0 2.5rem;
         position: relative;
         &::before,
         &::after {
-            color: $meta-text;
+            color: $brand-accent-blue;
             font-family: Georgia, serif;
             font-size: 3.375rem;
             position: absolute;
@@ -831,16 +830,25 @@ $large: 1024px;
             top: 0;
         }
         &::after {
-            content: "”";
-            line-height: 0;
-            right: 0;
             bottom: 0;
+            color: $meta-text;
+            content: "”";
+            font-size: 10rem;
+            line-height: 0;
+            opacity: 0.25;
+            position: absolute;
+            right: 0;
         }
-        ~ p {
+        p {
+            color: $brand-navy;
+        }
+        .attr {
             color: $meta-text;
             font-size: 0.875rem;
+            font-style: italic;
+            font-weight: bold;
             margin-bottom: 0;
-            padding: 0 2.5rem;
+            padding: 0;
         }
     }
     @media only screen and (min-width: $large) {
@@ -859,11 +867,14 @@ $large: 1024px;
             }
         }
         blockquote {
-            font-size: 1.5rem;
+            font-size: 1.125rem;
             padding: 0 6rem;
             &::before,
             &::after {
                 font-size: 7rem;
+            }
+            &::after {
+                font-size: 30rem;
             }
             ~ p {
                 font-size: 1rem;
@@ -895,7 +906,6 @@ $large: 1024px;
             margin-bottom: 0;
         }
     }
-
     @media only screen and (min-width: $medium) {
         display: flex;
         flex-flow: row wrap;

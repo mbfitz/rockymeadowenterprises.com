@@ -49,15 +49,21 @@
                 </h2>
                 <div class="tiles">
                     <div>
-                       <a href="about.php">learn more about Daniel’s background</a>
+                      <h3>
+                        <a href="about.php">learn more about Daniel’s background</a>
+                      </h3>
                        <i class="fa fa-id-card-o" aria-hidden="true"></i>
                     </div>
                     <div>
-                       <a href="services.php">read about his services</a>
+                      <h3>
+                        <a href="services.php">read about his services</a>
+                      </h3>
                        <i class="fa fa-comment" aria-hidden="true"></i>
                     </div>
                     <div>
-                       <a href="testimonials.php">see what other parents have to say about him</a>
+                      <h3>
+                        <a href="testimonials.php">see what other parents have to say about him</a>
+                      </h3>
                        <i class="fa fa-quote-right" aria-hidden="true"></i>
                     </div>
                 </div>
