@@ -390,10 +390,11 @@ $large: 1024px;
  * Emmet: footer.primary>(.container>div>(div.branding>(a>img)+p{123 Main Street})+(nav>ul>(li>a{Link})*4)+(div>ul.social>li>a>i.fa.fa-facebook))+.legal>p{Lorem}+a{Terms}
  */
 @mixin footer {
-    background-color: $charcoal;
+    background-color: $brand-red;
+    border-top: 2px solid #fff;
     color: #FFF;
-    font-size: 0.9rem;
-    padding: 3rem 0;
+    font-size: 0.875rem;
+    padding: 2rem 0;
     text-align: center;
     .branding {
         float: none;
@@ -403,14 +404,21 @@ $large: 1024px;
         }
     }
     a {
-        color: $link;
+        color: #fff;
         &:hover {
-            color: darken($link, 10%);
+            color: $steel-blue;
         }
     }
+    p {
+        margin-bottom: 0;
+    }
     nav ul {
-        margin-bottom: 2rem;
+        margin-bottom: 0;
         text-align: center;
+        li {
+            display: inline-block;
+            text-transform: uppercase;
+        }
     }
     .social a {
         color: #FFF;

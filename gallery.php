@@ -2,11 +2,8 @@
 
 <div class="hero">
     <div class="copy">
-        <!-- <h1>
-            Daniel Blanchard, M.S., CCC-SLP
-        </h1> -->
         <h2>
-            Testimonials
+            Photo Gallery
         </h2>
     </div>
 </div>
