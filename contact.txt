@@ -1,0 +1,11 @@
+To: mbfoley5@gmail.com
+Subject: New Website Lead
+
+Full Name:			    [fullname]
+Phone:					[phone]
+Email:					[email]
+Comments:			    [comments]
+
+------ Anti-abuse tracking info ---------
+
+IP ADDRESS:	[$REMOTE_ADDR]

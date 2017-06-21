@@ -193,7 +193,7 @@ $large: 1024px;
             }
             > hr {
                 display: table-cell;
-                width: 1rem;
+                width: 5rem;
             }
         }
     }
@@ -808,7 +808,7 @@ $large: 1024px;
 */
 
 @mixin testimonial($gutterWidth: 4rem) {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding: 4rem 0 4rem;
     text-align: center;
     .asset {
@@ -847,9 +847,6 @@ $large: 1024px;
             position: absolute;
             right: 0;
         }
-        p {
-            color: $brand-navy;
-        }
         .attr {
             color: $meta-text;
             font-size: 0.875rem;
@@ -860,6 +857,7 @@ $large: 1024px;
         }
     }
     @media only screen and (min-width: $large) {
+        margin-bottom: 0;
         text-align: left;
         .container > div {
             display: flex;
