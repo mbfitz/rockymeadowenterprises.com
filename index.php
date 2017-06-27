@@ -17,14 +17,14 @@
                 <h1 class="cushycms" title="Services Heading">Construction Services and General Contractor</h1>
                 <div class="tiles">
                     <ul class="cushycms" title="Services Column 1">
-                        <li>Demolition</li>
-                        <li>Site Work</li>
-                        <li>Underground Utilities</li>
-                    </ul>
-                    <ul class="cushycms"  title="Services Column 2">
                         <li>Septic Systems</li>
                         <li>Title V inspections</li>
                         <li>All Utilities</li>
+                    </ul>
+                    <ul class="cushycms"  title="Services Column 2">
+                        <li>Demolition</li>
+                        <li>Site Work</li>
+                        <li>Underground Utilities</li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                             <img src="img/excavator-construction.jpg" alt="Excavator at Work">
                         </div>
                         <div class="actions">
-                            <a href="gallery.php" class="button">View Gallery</a>
+                            <a href="gallery.php" class="button alt">View Gallery</a>
                         </div>
                     </div>
                     <hr>

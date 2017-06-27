@@ -2,17 +2,24 @@
 <?php require($DOCUMENT_ROOT . "partials/header.html"); ?>
 
 <div class="hero">
-    <div class="copy">
-        <h2>
-            Thank you!
-        </h2>
+    <div class="container">
+        <div class="copy">
+            <h1>
+                Thank you!
+            </h1>
+        </div>
     </div>
 </div>
 
-<div class="torso">
+<div class="torso thank-you">
     <main>
-        <section class="">
-            <h4>Thanks for contacting us! Someone will reach out to you shortly.</h4>
+        <section>
+            <div class="container">
+                <h4>Thanks for contacting us!</h4>
+                <h5>
+                    Someone will reach out to you shortly.
+                </h5>
+            </div>
         </section>
     </main>
 </div>

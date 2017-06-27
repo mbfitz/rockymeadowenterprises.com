@@ -83,9 +83,9 @@ $large: 1024px;
 
     &:hover,
     &:focus {
-        background-color: rgba(255,255,255,0.25);
+        background-color: $brand-accent-blue;
         border-color: #fff;
-        color: $brand-red;
+        color: #fff;
     }
 
     &.disabled,
@@ -93,6 +93,13 @@ $large: 1024px;
         background-color: lighten($charcoal, 45%);
         color: darken(#FFF, 20%);
         pointer-events: none;
+    }
+
+    &.alt {
+        background-color: $brand-light-blue;
+        &:hover {
+            background-color: $brand-red;
+        }
     }
 }
 
@@ -881,6 +888,11 @@ div:empty {
     form {
         text-align: center;
     }
+}
+
+.torso.thank-you {
+    color: #000;
+    padding: 3rem 0;
 }
 
 .services {
