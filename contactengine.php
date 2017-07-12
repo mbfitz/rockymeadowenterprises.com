@@ -1,7 +1,7 @@
 <?php
 
-$EmailFrom = "mbfoley5+testfrom@gmail.com";
-$EmailTo = "mbfoley5+testto@gmail.com";
+$EmailFrom = "info@rockeymeadowenterprises.com";
+$EmailTo = "info@rockeymeadowenterprises.com";
 $Subject = "Website Contact Form Submission";
 $name = Trim(stripslashes($_POST['fullname'])); 
 $phone = Trim(stripslashes($_POST['phone'])); 
