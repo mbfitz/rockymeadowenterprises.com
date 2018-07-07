@@ -52,6 +52,7 @@
                             <input type="email" name="email" id="email" placeholder="Email" />
                             
                             <textarea name="comments" rows="40" cols="20" id="comments"  placeholder="Tell us about your project."></textarea>
+                            <div class="g-recaptcha" data-sitekey="6LfCJU4UAAAAAIh-JI5ma-cTUWJP2ogA9uFvPVjy"></div>
 
                             <input type="submit" name="submit" value="Submit" class="submit-button" />
                         </form>

@@ -1100,6 +1100,11 @@ nav.pagination {
     }
 }
 
+/* captcha styles */
+.g-recaptcha {
+    margin-bottom: 2rem;
+}
+
 /* = Media Queries = */
 @media only screen and (min-width: $medium) {
     /* = Layout = */

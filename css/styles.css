@@ -2214,6 +2214,11 @@ nav.pagination li:hover:not(.active):not(.disabled) a::before {
   color: #fff;
 }
 
+/* captcha styles */
+.g-recaptcha {
+  margin-bottom: 2rem;
+}
+
 /* = Media Queries = */
 @media only screen and (min-width: 669px) {
   /* = Layout = */
